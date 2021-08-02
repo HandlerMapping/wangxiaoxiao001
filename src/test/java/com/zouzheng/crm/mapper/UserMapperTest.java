@@ -8,9 +8,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 class UserMapperTest {
   @Autowired
     private UserMapper mapper;
-
+    private int i;
   @Test
   void test(){
+
     mapper.selectList(null).forEach(System.out::println);
+
   }
 }
