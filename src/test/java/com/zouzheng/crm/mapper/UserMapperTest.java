@@ -9,6 +9,7 @@ class UserMapperTest {
   @Autowired
     private UserMapper mapper;
     private int i;
+    private String a;
   @Test
   void test(){
 
